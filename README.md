@@ -1,2 +1,2 @@
 # sweetasteHome
-Practice project files with HTML and CSS.
+Practice project files by using HTML and CSS.
