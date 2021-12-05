@@ -1,0 +1,518 @@
+/* *{
+    outline:1px solid chartreuse;
+} */
+@font-face{
+    font-family: 'Source Code Pro';
+    src: local('Source Code Pro');
+}
+body{
+    font-family: 'Source Code Pro';
+    font-weight: bolder;
+    color:#3F5D45;
+}
+a{
+    color:#3F5D45;
+    text-decoration: none;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}   
+li{
+    text-decoration: none;
+}
+.container{
+    max-width: 1024px;
+    padding: 30px 42px 0px 42px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-right: 1px solid #EAF0ED;
+    border-left: 1px solid #EAF0ED;
+}
+
+
+/* header-start */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 40px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1024px;
+}
+h1 {
+    display: flex;
+}
+.rwd-nav span{
+    display: none;
+}
+.logo a{
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    width: 40px;
+    height: 40px;
+}
+.logo-text{
+    width: 171.22px;
+    height: 26.6px;
+    margin-left: 8.27px;
+}
+.navbar{
+    line-height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.rwd-nav a{
+    display: inline;
+}
+.navbar li{
+    display: inline;
+    white-space: nowrap;
+    line-height: 40px;
+    margin: auto 0px auto 60px;
+}
+.navbar li:nth-child(1){
+    margin-left: 0;
+}
+.navbarPage a{
+    display: inline-block;
+    line-height: 40px;
+}
+.navbarCart span{
+    font-size: 24px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+/* header-end */
+
+
+/* footer-start */
+.regsiter{
+    margin: 0 auto;
+    max-width: 1024px;
+    min-height: 116px;
+    background-color: #3F5D45;
+    display: flex;
+    justify-content: center;
+}
+.regsiterWrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 780px;
+}
+.logo-mail{
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo-mail img{
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+}
+.logo-mail span{
+    font-size: 24px;
+    color: #EAF0ED;
+    font-weight: normal;
+    white-space: nowrap;
+    margin-left: 20px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.mailSendBar{
+    display: flex;
+    max-width: 380px;
+    height: 56px;
+    background-color: #EAF0ED;
+    justify-content: space-between;
+    margin: auto;
+}
+.mailSendBar span{
+    margin: 16px 20px;
+}
+.mailSendBar input{
+    background-color: #EAF0ED;
+    width: 100%;
+    font-size: 20px;
+    margin: auto;
+    height: 90%;
+    border: 0;
+}
+.sendMailButton a{
+    height: 56px;
+    width: 64px;
+    background-color: #FFE180;
+    display: block;
+}
+
+
+.footer{
+    min-height: 341px;
+    max-width: 1024px;
+    background-color: #EAF0ED;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-left: 122px;
+    padding-right: 122px;
+    padding-bottom: 30px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 38.9px;
+    min-height: 272.1px;
+}
+.information img{
+    height: 26.6px;
+}
+
+.socialLink p{
+    white-space: nowrap;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+.socialLink a{
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 8px;
+}
+.socialLink img{
+    height: 32px;
+    width: 32px;
+    margin: 0px;
+    border-radius: 20%;
+    vertical-align: middle;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.copyright p{
+    font-weight: lighter;
+    font-family: sans-serif;
+    white-space: nowrap;
+    line-height: 19px;
+    font-size: 16px;
+}
+.slogan{
+    display: flex;
+    justify-content: flex-end;
+}
+.slogan img{
+    width: 59.28px;
+}
+/* footer-end */
+
+
+
+
+/* checkout-3-1-page-start */
+.checkout-3-1-Page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px auto 65px auto;
+    max-width: 780px;
+    width: 100%;
+}
+.receiptForm{
+    max-width: 460px;
+    width: 100%;
+    margin-right: 20px;
+}
+.receiptForm p a{
+    display: block;
+    text-align: center;
+    line-height: 65px;
+    height: 65px;
+    width: 100%;
+    font-size: 24px;
+    background-color: #FFE180;
+}
+.receiptFormBox{
+    background-color: #3F5D45;
+    color: #EAF0ED;
+    box-sizing: border-box;
+    padding: 30px 40px 14px 40px;
+}
+.receiptFormTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.receiptFormTitle h2{
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 36px;
+    line-height: 50px;
+}
+.receiptCheckedIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 153px;
+    height: 20px;
+    color: #EAF0ED;
+}
+.receiptCheckedIcon li{
+    height: 20px;
+    width: 20px;
+}
+.receiptCheckedIcon li:nth-child(even){
+    transform: scale(4.4,0.5);
+}
+.receiptCheckedIcon span{
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+}
+.receiptSelect{
+    box-sizing: border-box;
+    line-height: 56px;
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.receiptSelect li{
+    box-sizing: border-box;
+    text-align: center;
+    max-width: 190px;
+    width: 100%;
+    outline: 1px solid #EAF0ED;;
+}
+.receiptSelect a{
+    display: inline-block;
+    color: #EAF0ED;
+    max-width: 190px;
+    width: 100%;
+}
+.receiptSelectEmail a{
+    color: #3F5D45;
+    background-color: #EAF0ED;
+}
+.receiptInfo{
+    font-size: 20px;
+    line-height: 28px;
+    color: #EAF0ED;
+}
+.receiptInfo h4{
+    margin-bottom: 8px;
+}
+.receiptInfo input{
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #8DA291;
+    background-color: #EAF0ED;
+    line-height: 56px;
+    height: 56px;
+    border: none;
+    padding: 0px 20px;
+    margin-bottom: 16px;
+}
+.receiptLong{
+    max-width: 380px;
+    width: 100%;
+}
+
+
+.deliverOrderMemo{
+    max-width: 300px;
+    width: 100%;
+    line-height: 22px;
+    font-size: 16px;
+    color: #8DA291;
+    font-weight: lighter;
+    text-align: center;
+}
+.deliverListBox{
+    box-sizing: border-box;
+    padding: 16px 20px;
+    border: 1px solid #EAF0ED;
+    margin-bottom: 20px;
+}
+.deliverOrderListTitle{
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: 65px;
+    height: 65px;
+    color: #8DA291;
+    background-color: #EAF0ED;
+}
+.deliverOrderMemoList{
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    line-height: 22px;
+}
+.deliverOrderMemoSum{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #8DA291;
+    line-height: 28px;
+    box-sizing: border-box;
+    margin-top: 16px;
+}
+
+.deliverShoppingListTitle{
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: 65px;
+    height: 65px;
+    color: #8DA291;
+    background-color: #EAF0ED;
+}
+.deliverShoppingListBox{
+    box-sizing: border-box;
+    border: 1px solid #EAF0ED;
+    padding: 16px 20px;
+    height: 304px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.deliverShoppingCartList{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    align-items: center;
+}
+.deliverShoppingCartList img{
+    max-width: 120px;
+    margin-top: -25px
+}
+/* checkout-3-1-page-end */
+
+
+
+
+/* RWD-start */
+@media(max-width: 767px){
+    .container{
+        max-width: 375px;
+        width: 375px;
+        padding: 0px;
+        outline: 0px;
+        border: 0px;
+    }
+    /* header-start */
+    .header{
+        padding: 30px;
+        width: 100%;
+        max-width: 375px;
+        box-sizing: border-box;
+    }
+    .header h1{
+        width: 68.25%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar li{
+        margin: 0px;
+    }
+    .rwd-nav span{
+        display: inline-block;;
+    }
+    ul .rwd-nav{
+        display: none;
+    }
+    .rwd-nav a{
+        display: none;
+    }
+    .logo-img{
+        display: none;
+    }
+    .logo img{
+        height: 17.74px;
+        width: 114px;
+    }
+    /* header-end */
+
+    /* footer-start*/
+    .regsiter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .logo-mail{
+        justify-content: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .logo-mail img{
+        margin: 0;
+    }
+    .logo-mail a{
+        margin: auto 0;
+    }
+
+    .mailSendBar{
+        margin: 30px auto;
+    }
+
+    .footer{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .contact{
+        font-weight: bolder;
+    }
+    .copyright{
+        margin-top: 30px;
+    }
+    .slogan img{
+        display: none;
+    }
+    /* footer-end */
+
+
+    /* checkout-3-1-page-start */
+    .checkout-3-1-Page{
+        margin: 0 auto;
+    }
+    .receiptForm{
+        margin: 0 auto;
+    }
+    .receiptFormBox{
+        padding: 30px 30px 14px 30px;
+    }
+    .deliverOrderGroup{
+        display: none;
+    }
+    /* checkout-3-1-page-end */
+
+
+}
+/* RWD-end */
+
+
+
+
