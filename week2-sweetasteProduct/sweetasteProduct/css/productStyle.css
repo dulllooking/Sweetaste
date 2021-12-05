@@ -1,0 +1,490 @@
+/* *{
+    outline:1px solid chartreuse;
+} */
+@font-face{
+    font-family: 'Source Code Pro';
+    src: local('Source Code Pro');
+}
+body{
+    font-family: 'Source Code Pro';
+    font-weight: bolder;
+    color:#3F5D45;
+}
+a{
+    color:#3F5D45;
+    text-decoration: none;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}   
+li{
+    text-decoration: none;
+}
+.container{
+    max-width: 1024px;
+    padding: 30px 42px 0px 42px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-right: 1px solid #EAF0ED;
+    border-left: 1px solid #EAF0ED;
+}
+
+
+/* header-start */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 40px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1024px;
+}
+h1 {
+    display: flex;
+}
+.rwd-nav span{
+    display: none;
+}
+.logo a{
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    width: 40px;
+    height: 40px;
+}
+.logo-text{
+    width: 171.22px;
+    height: 26.6px;
+    margin-left: 8.27px;
+}
+.navbar{
+    line-height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.rwd-nav a{
+    display: inline;
+}
+.navbar li{
+    display: inline;
+    white-space: nowrap;
+    line-height: 40px;
+    margin: auto 0px auto 60px;
+}
+.navbar li:nth-child(1){
+    margin-left: 0;
+}
+.navbarPage a{
+    display: inline-block;
+    line-height: 40px;
+}
+.navbarCart span{
+    font-size: 24px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+/* header-end */
+
+
+/* footer-start */
+.regsiter{
+    margin: 0 auto;
+    max-width: 1024px;
+    min-height: 116px;
+    background-color: #3F5D45;
+    display: flex;
+    justify-content: center;
+}
+.regsiterWrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 780px;
+}
+.logo-mail{
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo-mail img{
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+}
+.logo-mail span{
+    font-size: 24px;
+    color: #EAF0ED;
+    font-weight: normal;
+    white-space: nowrap;
+    margin-left: 20px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.mailSendBar{
+    display: flex;
+    max-width: 380px;
+    height: 56px;
+    background-color: #EAF0ED;
+    justify-content: space-between;
+    margin: auto;
+}
+.mailSendBar span{
+    margin: 16px 20px;
+}
+.mailSendBar input{
+    background-color: #EAF0ED;
+    width: 100%;
+    font-size: 20px;
+    margin: auto;
+    height: 90%;
+    border: 0;
+}
+.sendMailButton a{
+    height: 56px;
+    width: 64px;
+    background-color: #FFE180;
+    display: block;
+}
+
+
+.footer{
+    min-height: 341px;
+    max-width: 1024px;
+    background-color: #EAF0ED;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-left: 122px;
+    padding-right: 122px;
+    padding-bottom: 30px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 38.9px;
+    min-height: 272.1px;
+}
+.information img{
+    height: 26.6px;
+}
+
+.socialLink p{
+    white-space: nowrap;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+.socialLink a{
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 8px;
+}
+.socialLink img{
+    height: 32px;
+    width: 32px;
+    margin: 0px;
+    border-radius: 20%;
+    vertical-align: middle;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.copyright p{
+    font-weight: lighter;
+    font-family: sans-serif;
+    white-space: nowrap;
+    line-height: 19px;
+    font-size: 16px;
+}
+.slogan{
+    display: flex;
+    justify-content: flex-end;
+}
+.slogan img{
+    width: 59.28px;
+}
+/* footer-end */
+
+
+
+
+/* product-page-start */
+.banner img{
+    max-height: 100%;  
+    max-width: 100%;
+    vertical-align: middle;
+    margin: 30px 0px 60px 0px;
+}
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sidebar{
+    max-width: 300px;
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 30px;
+    white-space: nowrap;
+}
+.sidebar li{
+    text-align: center;
+    line-height: 64px;
+}
+.sidebar a{
+    display: block;
+    line-height: 64px;
+    min-width: 300px;
+}
+.sidebarTitle{
+    background-color: #3F5D45;
+    color: #EAF0ED;
+}
+.sidebarList{
+    color: #3F5D45;
+    outline: 1px solid #EAF0ED;
+}
+.sidebarList a:hover{
+    padding-top: 1px;
+    background-color: #EAF0ED;
+    border: 0;
+}
+.sidebarList a:focus{
+    background-color: #EAF0ED;
+}
+
+.product{
+    max-width: 620px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.productPage{
+    margin-bottom: 20px;
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.productImg{
+    display: flex;
+}
+.productImg img{
+    max-width: 300px;
+    position: relative;
+    z-index: 1;
+}
+.ribbon{
+    font-size: 16px;
+    background-color: #3F5D45;
+    color: #EAF0ED;
+    height: 106.73px;
+    width: 36px;
+    box-sizing: border-box;
+    padding: 8px 10px 10px;
+    line-height: 20px;
+    position: absolute;;
+    z-index: 2;
+    left: 20px;
+}
+.productImg span{
+    font-size: 24px;
+    position: absolute;
+    z-index: 2;
+    left: 256px;
+    top: 16px;
+}
+
+.productPrice{
+    display: flex;
+    font-size: 20px;
+    line-height: 56px;
+    max-width: 300px;
+}
+.name{
+    flex: 173;
+    box-sizing: border-box;
+    border: 1px solid #EAF0ED;
+    font-weight: lighter;
+    text-align: center;
+}
+.price{
+    flex: 127;
+    box-sizing: border-box;
+    border: 1px solid #EAF0ED;
+    text-align: center;
+}
+
+.addToCart a{
+    display: block;
+    font-size: 24px;
+    line-height: 65px;
+    max-width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #EAF0ED;
+    background-color: #EAF0ED;
+}
+.addToCart a:active{
+    background-color: #3F5D45;
+    color: #EAF0ED;
+}
+
+.pagebar{
+    margin: 10px 0px 30px 320px;
+}
+.pagebar ul{
+    display: flex;
+}
+.pagebar a{
+    box-sizing: border-box;
+    border: 1px solid #EAF0ED;
+    height: 60px;
+    width: 60px;
+    display: block;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 60px;
+}
+.pageNumber a:focus{
+    font-weight: normal;
+    color: #EAF0ED;
+    background-color: #3F5D45;
+}
+.pagebar span{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.nextPage a:active{
+    color: #EAF0ED;
+    background-color: #3F5D45;
+}
+/* product-page-end */
+
+
+
+
+/* RWD-start */
+@media(max-width: 767px){
+    .container{
+        max-width: 375px;
+        width: 375px;
+        padding: 0px;
+        outline: 0px;
+        border: 0px;
+    }
+    /* header-start */
+    .header{
+        padding: 30px;
+        width: 100%;
+        max-width: 375px;
+        box-sizing: border-box;
+    }
+    .header h1{
+        width: 68.25%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar li{
+        margin: 0px;
+    }
+    .rwd-nav span{
+        display: inline-block;;
+    }
+    ul .rwd-nav{
+        display: none;
+    }
+    .rwd-nav a{
+        display: none;
+    }
+    .logo-img{
+        display: none;
+    }
+    .logo img{
+        height: 17.74px;
+        width: 114px;
+    }
+    /* header-end */
+
+    /* footer-start*/
+    .regsiter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .logo-mail{
+        justify-content: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .logo-mail img{
+        margin: 0;
+    }
+    .logo-mail a{
+        margin: auto 0;
+    }
+
+    .mailSendBar{
+        margin: 30px auto;
+    }
+
+    .footer{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .contact{
+        font-weight: bolder;
+    }
+    .copyright{
+        margin-top: 30px;
+    }
+    .slogan img{
+        display: none;
+    }
+    /* footer-end */
+
+
+    /* product-page-start */
+    .banner img{
+        margin: 0;
+    }
+    .sidebar{
+        max-width: 100%;
+        margin: 0;
+    }
+    .productPage{
+        margin: 30px auto 0px auto;
+    }
+    .pagebar{
+        margin: 30px auto;
+    }
+    /* product-page-end */
+
+
+}
+/* RWD-end */

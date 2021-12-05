@@ -1,0 +1,161 @@
+/* *{
+    outline:2px solid chartreuse;
+} */
+@font-face{
+    font-family: "Source Code Pro";
+    src: local('Source Code Pro');
+}
+body{
+    font-family: "Source Code Pro";
+    text-align: justify;
+}
+h1{
+    color: black;
+    white-space: nowrap;
+}
+h2{
+    color: #333333;
+    margin-bottom: 0px;
+}
+h3{
+    color: rgb(50, 0, 150);
+    white-space: nowrap;
+}
+h5{
+    color: #acacac;
+}
+.title{
+    color: rgb(50, 0, 150);
+    padding-top: 20px;
+    border-top: 2px solid #555555;
+}
+.skill-title{
+    margin-left: 50px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    color: #555555;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid  #acacac;
+    box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+}
+.flex-top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.top-photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+}
+.top-photo img{
+    width: 130px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-resume{
+    margin-left: 15px;
+    flex: 8;
+}
+.block-skill{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+.skill{
+    height: auto;
+    width: auto;
+    border: solid 2px rgb(220, 220, 220);
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 50px;
+}
+.skill img{
+    height: 50px;
+    width: 50px;
+    border-radius: 2%;
+    vertical-align: middle;
+}
+.skill a{
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.project-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    margin-right: 25px;
+}
+.project img{
+    height: 235px;
+    width: 420px;
+    border-radius: 4%;
+}
+.company{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+.company-icon{
+    display: flex;
+    flex: 0.5;
+    justify-content: center;
+}
+.company-icon img{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+}
+.company-title{
+    flex: 2.8;
+}
+.company-do{
+    flex: 3;
+    flex-direction: column;
+    padding-top: 5px;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.company-do p{
+    margin-bottom: 30px;
+}
+.school{
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.school-inbox{
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    flex-direction: row;
+}
+.school-1{
+    flex: 4;
+}
+.school-icon{
+    flex: 0.5;
+}
+.school-icon img{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+}
